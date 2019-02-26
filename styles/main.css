@@ -1,21 +1,35 @@
 body  {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+
+	/* Center the body horizantally. */
+	margin: auto;
+	width: 800px;
+
+	/* Set up the border. */
+	/* I personally prefer breaking these up. I find them more readable like this.*/
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+
+	/* Set up the shadow */
+	box-shadow: 0px 0px 50px;
 }
 a {
     font-weight: bold;
     color: orange;
 }
-a:link, a:visited { 
-    color: orange; 
+a:link, a:visited {
+    color: orange;
 }
-a:hover, a:focus { 
+a:hover, a:focus {
     color: green;
 }
 
 /* Header */
-header img { 
-	float: left; 
-} 
+header img {
+	float: left;
+}
 header h2 {
 	font-size: 230%;
 	font-style: italic;
@@ -29,10 +43,10 @@ header h3 {
 }
 
 /* Main */
-main h1 { 
+main h1 {
 	font-size: 140%;
 }
-main h1:first-letter { 
+main h1:first-letter {
 	font-size: 240%;
 }
 main h2 {
