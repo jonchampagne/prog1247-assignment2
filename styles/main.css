@@ -1,7 +1,7 @@
-
 html {
   background: url(../images/bats.gif) center;
 }
+
 body  {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	background-color: white;
@@ -30,6 +30,11 @@ a:hover, a:focus {
     color: green;
 }
 
+header, main, footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* Header */
 header {
 		border-bottom: 3px;
@@ -38,6 +43,8 @@ header {
     /* 45° angle. White at the left to orange ¾ of the way to the right to black
     at the right*/
     background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+
+    padding-top: 10px;
 }
 
 header img {
@@ -46,10 +53,12 @@ header img {
 header h2 {
 	font-size: 230%;
 	text-indent: 25px;
+  margin: 0px;
 }
 header h3 {
 	font-size: 125%;
 	text-indent: 25px;
+  margin: 8px;
 }
 
 /* Main */
@@ -76,6 +85,8 @@ footer {
 		border-top-style: solid;
     /* Just tweaked the angle of the header gradient */
     background: linear-gradient(225deg, white 0%, orange 75%, black 100%);
+
+    padding-bottom: 1px;
 }
 
 footer p {
