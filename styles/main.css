@@ -77,11 +77,17 @@ main h2 {
 main h3 {
 	font-size: 110%;
 }
-ul {
-	line-height: 1.5;
-}
 main #sidebar {
   width: 160px;
+}
+main #sidebar ul {
+	line-height: 1.5;
+  /* The default pre-padding in chrome and edge looked like way too much to me.*/
+  padding-inline-start: 15px;
+  padding-inline-end: 40px;
+  /* For Edge only */
+  padding-left: 15px;
+  padding-right: 40px;
 }
 
 /* Footer */
